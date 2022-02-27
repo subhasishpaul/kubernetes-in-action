@@ -4,7 +4,7 @@ metadata:
   name: fortune
 spec:
   containers:
-  - image: luksa/fortune
+  - image: subhasishpaul/fortune
     name: html-generator
     volumeMounts:
     - name: html
@@ -19,7 +19,5 @@ spec:
     - containerPort: 80
       protocol: TCP
   volumes:
-
   - name: html
-
     emptyDir: {}
