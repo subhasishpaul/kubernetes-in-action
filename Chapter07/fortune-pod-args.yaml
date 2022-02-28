@@ -4,7 +4,7 @@ metadata:
   name: fortune2s
 spec:
   containers:
-  - image: subhasishpaul/fortune:args
+  - image: subhasishpaul/fortune:test
     args: ["2"]
     name: html-generator
     volumeMounts:
