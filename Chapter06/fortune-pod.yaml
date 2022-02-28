@@ -4,7 +4,7 @@ metadata:
   name: fortune
 spec:
   containers:
-  - image: subhasishpaul/fortune:v1
+  - image: subhasishpaul/fortune:v2
     name: html-generator
     volumeMounts:
     - name: html
