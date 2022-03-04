@@ -4,8 +4,8 @@ metadata:
   name: external-service
 subsets:
   - addresses:
-    - ip: 10.32.0.6
-    - ip: 10.32.0.8
-    - ip: 10.32.0.10
+    - ip: 10.32.0.2
+    - ip: 10.32.0.3
+    - ip: 10.32.0.4
     ports:
     - port: 80 
