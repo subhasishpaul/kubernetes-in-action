@@ -11,7 +11,8 @@ spec:
   - host: "kubia.example.com"
     http:
       paths:
-      - path: /
+      - pathType: Prefix
+        path: /
         backend:
           service:
             name: kubia-nodeport
