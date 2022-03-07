@@ -8,10 +8,12 @@ spec:
     - kubia.example.com
     secretName: tls-secret
   rules:
-  - host: kubia.example.com
+  - host: "kubia.example.com"
     http:
       paths:
       - path: /
         backend:
-          serviceName: kubia-nodeport
-          servicePort: 80
+          service:
+            name: kubia-nodeport
+            port: 
+              number: 80
