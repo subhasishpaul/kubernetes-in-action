@@ -3,12 +3,12 @@ kind: Pod
 metadata:
   name: kubernetes-downwardapi-volume-example
   labels:
-    zone: us-est-coast
+    zone: asia-south1-c
     cluster: test-cluster1
     rack: rack-22
   annotations:
     build: two
-    builder: john-doe
+    builder: subh
 spec:
   containers:
     - name: client-container
